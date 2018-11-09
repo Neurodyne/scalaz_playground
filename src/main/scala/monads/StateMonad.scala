@@ -2,7 +2,7 @@
 import scalaz._
 import Scalaz._
 
-object appState extends App {
+object appStateMonad extends App {
 
 case class LeftOver(size: Int)
  
